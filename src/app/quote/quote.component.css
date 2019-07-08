@@ -1,3 +1,5 @@
-/* p {
-    margin-right: 30%;
-} */
+p {
+    color: red;
+    text-align: center;
+    font-size: 30px
+}
