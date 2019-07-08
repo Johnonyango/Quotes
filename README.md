@@ -1,3 +1,6 @@
+#### By **{John Onyango}**
+## Description
+{This project is an Angular app that tests on sveral Angular concepts like creating components, classes, pipes and directives. }
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
@@ -25,3 +28,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Behavior Driven Development
+<table>
+    <tr>
+      <th>Behavior</th> 
+      <th>Input</th> 
+      <th>Output</th>   
+    </tr>
+    <tr>
+        <td>Author's name</td>
+        <td>Quote</td>
+        <td>Quote description</td>
+    </tr>
+    <tr>
+        <td>Deleting a quote</td>
+        <td>Liking</td>
+        <td>Disliking</td>
+    </tr>
+</table>
