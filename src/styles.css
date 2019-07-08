@@ -1,7 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 body {
-    background-image: url("http://www.scalsys.com/wallpapers/teal-wallpapers/teal-wallpapers_360571.jpg");
+    background-image: url("../src/assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: fi;
