@@ -1,0 +1,35 @@
+    <div class="container-fluid">
+        <hr>
+        <div class="row">
+            <p>Jiggy Jaggah Quotes</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <app-quote-form class="headstyle" (addQuote)="addNewQuote($event)"></app-quote-form>
+            </div>
+            <div class="col-md-6">
+                <h1>Famous Quotes</h1>
+                <div *ngFor='let quote of quotes;let i = index' >
+                    <div *ngIf='quote.showDescription'>
+                        <app-quote-detail class="headstyle" [quote]='quote' (isComplete)='deleteQuote($event,i)'>
+                        </app-quote-detail>
+                    </div>
+                    <div *ngIf='quote.publisher'>
+                        <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'>
+                        </app-quote-detail>
+                    </div>
+                    <div class="headstyle">
+                        <h6 id={{i}} appStrikethrough>{{quote.name}} {{quote.completeDate|date}}</h6>
+                        <div>
+                            <button r (click)='toggleDetails(i)' class="btn btn-primary"
+                                > Click for Description
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        
+    </div>
