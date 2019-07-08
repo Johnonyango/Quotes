@@ -37,13 +37,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
       <th>Output</th>   
     </tr>
     <tr>
-        <td>Author's name</td>
-        <td>Quote</td>
-        <td>Quote description</td>
+        <td>Enter Author's Name</td>
+        <td>Add a quote</td>
+        <td>Upvote</td>
     </tr>
     <tr>
-        <td>Deleting a quote</td>
-        <td>Liking</td>
-        <td>Disliking</td>
+        <td>Author's name</td>
+        <td>'A stich in time saves nine'</td>
+        <td>Like a quote</td>
+    </tr>
+    <tr>
+        <td>Author</td>
+        <td>Output Quote</td>
+        <td>Uotput Likes</td>
     </tr>
 </table>
+
