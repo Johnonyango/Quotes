@@ -1,8 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 body {
-    background-image: url("https://us.123rf.com/450wm/kotkoa/kotkoa1510/kotkoa151000106/46196661-stock-vector-orange-background-with-polygonal-network-element-and-fantastic-light-.jpg?ver=6");
-    /* background-repeat: no-repeat; */
+    background-image: url("https://previews.123rf.com/images/tonsofbackgrounds/tonsofbackgrounds1707/tonsofbackgrounds170700328/82571266-blue-pink-green-beautiful-gradient-colors-blend-background-design-in-high-resolution-soft-colors-for.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: fi;
+}
+h1 {
+    
 }
