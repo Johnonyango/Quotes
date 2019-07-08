@@ -2,7 +2,7 @@
 
 body {
     background-image: url("https://us.123rf.com/450wm/kotkoa/kotkoa1510/kotkoa151000106/46196661-stock-vector-orange-background-with-polygonal-network-element-and-fantastic-light-.jpg?ver=6");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    position: fi;
+    position: fixed;
 }
