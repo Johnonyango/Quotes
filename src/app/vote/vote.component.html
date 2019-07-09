@@ -1,2 +1,41 @@
 <button class="c btn-primary " (click)="upVote()">{{uvotes}} <img src="https://hotemoji.com/images/dl/z/green-heart-emoji-by-google.png" alt="" height="20px" width="20px"></button>
 <button class="c btn-muted" (click)="downVote()">{{dvotes}} <img src="https://thumbs.dreamstime.com/z/heart-emoticons-smiley-emoji-cartoon-red-heart-bored-emoticons-smiley-emoji-disgust-emotion-design-element-happy-valentines-108851712.jpg" alt="" height="20px" width="20px"></button>
+<!-- uVotes(index) {
+    let i: number;
+    i = this.quotes[index].uVote;
+    i++;
+    this.quotes[index].uVote = i;
+    // console.log('this i: ' + i);
+  }
+
+  dnVoter(index) {
+    let j: number;
+    j = this.quotes[index].dVote;
+    j++;
+    this.quotes[index].dVote = j;
+  }
+
+  highest(arr) {
+    arr = [];
+    this.quotes.forEach(quote => {
+      arr.push(quote.uVote);
+    });
+    const high = Math.max.apply(Math, arr);
+    return high;
+  }
+
+  addQuote(quote) {
+    this.quotes.unshift(quote);
+    console.log(this.quotes);
+  } -->
+  // <!--************************** quote voting ********************** -->
+
+  <!-- constructor() { }
+
+  ngOnInit() {
+    const arr = [];
+    this.quotes.forEach(quote => {
+      arr.push(quote.upVote - quote.dVote);
+    });
+    const high = Math.max.apply(Math, arr);
+  } -->

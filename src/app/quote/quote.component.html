@@ -14,19 +14,14 @@
                     
                     <div *ngFor='let quote of quotes;let i = index' >
                         <p style="color: rgb(176, 199, 245); font-size: 30px;">{{quote.description}}</p>
-
-                        <div *ngIf='quote.showDescription'>
-                            <app-quote-detail class="headstyle" [quote]='quote' (isComplete)='deleteQuote($event,i)'>
-                            </app-quote-detail>
-                        </div>
-                        <div class="headstyle">
-        
-                            <div>
+                        <div>
                                 <button r (click)='toggleDetails(i)' class="btn btn-primary"
                                     > Show Quote Details
                                 </button>
                             </div>
-
+                        <div *ngIf='quote.showDescription'>
+                            <app-quote-detail class="headstyle" [quote]='quote' (isComplete)='deleteQuote($event,i)'>
+                            </app-quote-detail>
                         </div>
                     </div>
                 </div>
