@@ -1,6 +1,7 @@
 <p style="color: rgb(7, 16, 34)">{{quote.description}}</p>
 
-<small class="text-muted">Found by: {{quote.publisher}}</small>
+<small style="color: rgb(34, 7, 7)">Quote was submitted by {{quote.submitter}} {{quote.completeDate|dateCount}} days ago</small>
+<!-- <p id="det">Quote was submitted by {{quote.submitter}} {{quote.completeDate|dateCount}} days ago</p> -->
 
 <button (click)='quoteDelete(true)' class="btn btn-danger">Delete Quote</button>
 <app-vote></app-vote>

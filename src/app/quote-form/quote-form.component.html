@@ -28,6 +28,15 @@
                 <p>Input Date!</p>
             </div>
         </div>
+        <div class="form-group">
+            <label for="submitter" class="text-center">Submitted by:</label>
+            <textarea [(ngModel)]="newQuote.submitter" name="submitter" #description="ngModel"
+                required>
+            </textarea>
+            <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
+                <p>Name of the submitter empty!</p>
+            </div>
+        </div>
         <button type="submit" class="btn btn-success" >Add a Quote</button>
     </form>
     </div>
