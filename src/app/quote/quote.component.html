@@ -17,14 +17,12 @@
                         <app-quote-detail class="headstyle" [quote]='quote' (isComplete)='deleteQuote($event,i)'>
                         </app-quote-detail>
                     </div>
-                    <div *ngIf='quote.submitter'>
-                        <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'>
-                        </app-quote-detail>
-                    </div>
                     <div class="headstyle">
+                            <p style="color: rgb(176, 199, 245); font-size: 30px;">{{quote.description}}</p>
+
                         <div>
                             <button r (click)='toggleDetails(i)' class="btn btn-primary"
-                                > Click for Description
+                                > Show Quote Details
                             </button>
                         </div>
 

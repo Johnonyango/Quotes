@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(1, 'A stich in time saves nine', 'John', 'Johnteez', 0, 0, new Date(2008, 3, 2)),
     new Quote(2, 'What a man can do a woman cannot do', 'Sandy,J.', 'Johnteez', 0, 0, new Date(2019, 6, 30)),
-    new Quote(3, 'Love is not reaally blind, just sees one soul. ', 'Jean', 'John', 0, 0, new Date(2004, 7, 9)),
+    new Quote(3, 'Love is not really blind, just sees one soul. ', 'Jean', 'John', 0, 0, new Date(2004, 7, 9)),
     new Quote(4, 'Home is home.', 'Jim Cartor', 'Johnteez', 0, 0, new Date(2019,1,2)),
     new Quote(5, 'Life is what goes on when we are busy planning for life!', 'Cally James', 'Johnteez', 0, 0, new Date(2005, 2, 2)),
 
