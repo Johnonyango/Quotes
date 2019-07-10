@@ -3,22 +3,33 @@
             <div class="one">
                 <h1>Jiggy Jaggah Quotes</h1>
             </div>
+            
             <div class="row">
                 <div class="col-md-6">
                     <app-quote-form class="headstyle" (addQuote)="addNewQuote($event)"></app-quote-form>
                 </div>
+                
                 <div class="col-md-6">
                     <marquee behavior="" direction="bottom">
                         <h2>Checkout Most Famous Quotes Below:</h2>
                     </marquee>
+                    <!-- <div class="high-cont" *ngFor="let quote of quotes; let i = index; let j = index;">
+
+                                    <div class="high-quote" appHighestVote *ngIf='quote.upVote == highest() && highest() > 0'>
+                                      <h5>Highest as voted by you</h5>
+                    </div>
+                </div> -->
                     
                     <div *ngFor='let quote of quotes;let i = index' >
+                        
                         <p style="color: rgb(176, 199, 245); font-size: 30px;">{{quote.description}}</p>
+                        
                         <div>
                                 <button r (click)='toggleDetails(i)' class="btn btn-primary"
                                     > Show Quote Details
                                 </button>
                             </div>
+
                         <div *ngIf='quote.showDescription'>
                             <app-quote-detail class="headstyle" [quote]='quote' (isComplete)='deleteQuote($event,i)'>
                             </app-quote-detail>

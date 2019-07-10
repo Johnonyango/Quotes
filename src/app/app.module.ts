@@ -11,6 +11,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { UpvoteDirective } from './upvote.directive';
 import { VoteComponent } from './vote/vote.component';
+import { HighestVoteDirective } from './highest-vote.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { VoteComponent } from './vote/vote.component';
     StrikethroughDirective,
     DateCountPipe,
     UpvoteDirective,
-    VoteComponent
+    VoteComponent,
+    HighestVoteDirective
   ],
   imports: [
     BrowserModule,
